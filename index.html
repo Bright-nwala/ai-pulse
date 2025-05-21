@@ -1,32 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AI PULSE</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI PULSE</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>AI PULSE</h1>
 
-    <section>
-      <label for="imageUpload">Upload Image:</label>
-      <input type="file" id="imageUpload" accept="image/*"/>
-      <div class="preview">
-        <img id="imagePreview" src="" alt="Image preview"/>
-      </div>
+    <header>
+        <nav>
+            <h1>AI PULSE</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner">
+        <img src="banner.jpg" alt="AI Banner">
     </section>
 
-    <section>
-      <label for="videoUpload">Upload Video:</label>
-      <input type="file" id="videoUpload" accept="video/*"/>
-      <div class="preview">
-        <video id="videoPreview" controls></video>
-      </div>
-    </section>
-  </div>
+    <main>
+        <article>
+            <h2>Exciting Developments in AI</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
 
-  <script src="script.js"></script>
+            <div class="social-share">
+                <a href="#" class="social-icon"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="twitter.png" alt="Twitter"></a>
+                <a href="#" class="social-icon"><img src="linkedin.png" alt="LinkedIn"></a>
+            </div>
+
+            <div class="article-media">
+                <video width="560" height="315" controls>
+                    <source src="ai_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <img src="article_image.jpg" alt="Article Image">
+            </div>
+
+            <p>
+               Further insights and analysis on the topic... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AI PULSE</p>
+    </footer>
+
 </body>
 </html>
